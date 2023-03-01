@@ -24,7 +24,7 @@ Pycom has examples setting up an HTTP Client and Server which is linked below, b
 - Server: https://docs.pycom.io/tutorials/networkprotocols/webserver/
 
 
-## Things to think about
+## Things to ponder
 
 1. What network options beside Wi-Fi do you see for your indoor air sensor?
 2. What are their benefits and disadvantages?
