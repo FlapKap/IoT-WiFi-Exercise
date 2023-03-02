@@ -15,7 +15,7 @@ Below is a link to the documentation for using Wi-Fi on LoPy's. Note that `WLAN.
 
 https://docs.pycom.io/tutorials/networks/wlan/
 
-By default the WiFi on the Pycom devices uses it's internal antennas, which should be more than enough if you place the devices close together. If you want to use the external antenna for increased range or coolness factor, then remember to connect it before you enable it in software, and to disable it before disconnecting the antenna. ***If the external antenna port is on without an external antenna the device break***
+By default the WiFi on the Pycom devices uses its internal antennas, which should be more than enough if you place the devices close together. If you want to use the external antenna for increased range or coolness factor, then remember to connect it before you enable it in software, and to disable it before disconnecting the antenna. ***If the external antenna port is on without an external antenna the device may break***
 
 ## Sending and Receiving data
 Here you are free to decide on how the devices should communicate. 
