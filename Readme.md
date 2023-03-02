@@ -11,10 +11,11 @@ Since you only have 1 LoPy for each group, you should find a another group to pa
 Some ressources to get you started:
 
 ## WLAN
-Documentation on how to create an access point and connect to it. Note that `WLAN.AP` (for Access Point) is for the host of the network, and `WLAN.STA` (for station) is for the sensor-device connecting to the access point.
+Below is a link to the documentation for using Wi-Fi on LoPy's. Note that `WLAN.AP` (for Access Point) is for the host of the network, and `WLAN.STA` (for station) is for the sensor-device connecting to the access point.
+
 https://docs.pycom.io/tutorials/networks/wlan/
 
-By default the WiFi on the Pycom devices uses it's internal antennas, which should be more than enough if you place the devices close together. If you want to use the external antenna for increased range or coolness factor, then remember to connect it before you enable it in software, and to disable it before disconnecting the antenna. ***If the external antenna port is on without an external antenna the device break***
+By default the WiFi on the Pycom devices uses its internal antennas, which should be more than enough if you place the devices close together. If you want to use the external antenna for increased range or coolness factor, then remember to connect it before you enable it in software, and to disable it before disconnecting the antenna. ***If the external antenna port is on without an external antenna the device may break***
 
 ## Sending and Receiving data
 Here you are free to decide on how the devices should communicate. 
@@ -24,7 +25,7 @@ Pycom has examples setting up an HTTP Client and Server which is linked below, b
 - Server: https://docs.pycom.io/tutorials/networkprotocols/webserver/
 
 
-## Things to think about
+## Things to ponder
 
 1. What network options beside Wi-Fi do you see for your indoor air sensor?
 2. What are their benefits and disadvantages?
