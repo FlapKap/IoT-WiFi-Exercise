@@ -12,6 +12,7 @@ Some ressources to get you started:
 
 ## WLAN
 Below is a link to the documentation for using Wi-Fi on LoPy's. Note that `WLAN.AP` (for Access Point) is for the host of the network, and `WLAN.STA` (for station) is for the sensor-device connecting to the access point.
+
 https://docs.pycom.io/tutorials/networks/wlan/
 
 By default the WiFi on the Pycom devices uses it's internal antennas, which should be more than enough if you place the devices close together. If you want to use the external antenna for increased range or coolness factor, then remember to connect it before you enable it in software, and to disable it before disconnecting the antenna. ***If the external antenna port is on without an external antenna the device break***
